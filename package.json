@@ -1,0 +1,11 @@
+// package.json
+{
+  // ...
+  "scripts": {
+    "build": "webpack --progress --colors --watch",
+    "watch": "webpack-dev-server --hot --progress --colors",
+    "dist": "NODE_ENV=production webpack --progress --colors"
+  },
+  // ...
+}
+可以在目录下执行 npm run build , npm run watch , npm run dist
